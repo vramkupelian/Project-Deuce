@@ -1,0 +1,49 @@
+<h1>DJs!</h1>
+
+<h2>DJs !</h2>
+
+<ul>
+  {{#each dj_name}}
+
+  {{/each}}
+</ul>
+
+
+
+<h2>Add a DJ</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="inputName">DJ Name:</label>
+    <input type="text" id="inputName" name="dj_name">
+    <label for="inputBio">DJ Bio:</label>
+    <input type="text" id="inputBio" name="dj_bio">
+    <label for="inputZip">DJ ZIP:</label>    
+    <input type="text" id="inputZip" name="dj_zip">
+    <label for="inputPhone">DJ Phone:</label>    
+    <input type="text" id="inputPhone" name="dj_phone">
+        
+  </div>
+  <button type="submit">Add DJ</button>
+</form>
+
+
+<h2>Add a vendor</h2>
+<form class="create-form-v">
+
+  <div class="form-group">
+    <label for="inputNameV">Vendor Name:</label>
+    <input type="text" id="inputNameV" name="vendor_name">
+    <label for="inputZipV">Vendor ZIP:</label>    
+    <input type="text" id="inputZipV" name="vendor_zip">
+    <label for="inputPhoneV">Vendor Phone:</label>    
+    <input type="text" id="inputPhoneV" name="vendor_phone">
+    <label for="inputLoc">Event Location:</label>    
+    <input type="text" id="inputLoc" name="event_location">
+    <label for="inputTime">Event Time:</label>    
+    <input type="text" id="inputTime" name="event_time">
+    <label for="inputCover">Cover charge:</label>    
+    <input type="text" id="inputCover" name="cover_ticket_price">                
+  </div>
+  <button type="submit">Add Vendor</button>
+</form>
